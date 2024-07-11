@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Var and Ops</title>
+</head>
+<body>
+	<h1>JavaScript Data Types, Variables, and Operators</h1>
+	<p id="results"></p>
+
+	<script>
+		// Data Types
+		let name = "Mariann mabilin";							//String
+		let age = 15;											//Number
+		let height = "5ft";										//String
+		let nickn = ["Mars"," Mayang"," i-yan"," marts"]		//Array
+		//Create Variables for Address, Emergency Contact
+		//Number of Siblings, and Avarage Monthly Allowance
+		let addr = "2519 Callejon 9 Del Pan St. Sta.Ana"; 		//string
+		let emcon = "09155969997";								//number
+		let nosib = 1;											//number
+		let monalw = "150 - 300";								//number
+
+		let x = 6;
+		let y = 9;
+		let z = !(x==7);
+
+		//Displaying Results
+		document.getElementById("results").innerHTML = 
+		"<p>Name: "+ name + "<p/>" + 
+		"<p>Age: "+ age + "</p>" + 
+		"<p>Height: "+ height + "<p/>" + 
+		"<p>Nickname: "+ nickn + "<p/>" + 
+		"<p>Address: "+ addr + "<p/>" + 
+		"<p>Emergency Contact: "+ emcon + "<p/>" + 
+		"<p>No. Sibling(s): "+ nosib + "<p/>" + 
+		"<p>Monthly Allowance: "+ monalw + "<p/>" + 
+		"<p>Answer: " + z + "</p>";
+
+	</script>
+
+</body>
+</html>
